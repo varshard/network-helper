@@ -1,0 +1,14 @@
+#!/bin/bash
+
+creat_open_ap () {
+	create_ap $1 $2 $3
+}
+
+read_args () {
+	while [-n "$1"]; do
+		case "$1" in
+
+		-hidden) HIDDEN=true
+	done
+}
+
